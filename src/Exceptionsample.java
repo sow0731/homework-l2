@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Exceptionsample {
+public class ExceptionSample {
 
 	public static void main(String[] args) throws Exception {
 
@@ -12,7 +12,7 @@ public class Exceptionsample {
 		studentId.put(4, "Oda");
 		studentId.put(5, "Kato");
 
-		String name = studentId.get(6);
+		String name = studentId.get(7);
 
 		if (name == null) {
 			throw new Exception("name was null");
