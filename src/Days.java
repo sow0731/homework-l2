@@ -10,7 +10,6 @@ public class Days {
 		DayOfWeek week = threeYearsLater.getDayOfWeek();
 
 		System.out.println("3年後の今日は" + week + "です");
-
 	}
 
 }
